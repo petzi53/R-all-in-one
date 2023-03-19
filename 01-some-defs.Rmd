@@ -1,0 +1,155 @@
+
+# (PART) Book 1: Introducing R {.unnumbered}
+
+# R: What It Does and How It Does It
+
+## Some Definitions
+
+::: infobox
+### Parameter and Statistics {.unnumbered}
+
+Properties of a population (like the population average) are called
+**parameters**, and properties of a sample (like the sample average) are
+called **statistics**. [05.03.23
+22:35](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/8/18%5Bc01-para-0012%5D/2%3A36%29)
+
+Statistians use Greek letters (μ, σ, ρ) to stand for parameters, and
+English letters ($\overline{X}$, s, r) to stand for statistics.
+[05.03.23
+22:36](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/8/20%5Bc01-para-0013%5D/2%3A49%29)
+:::
+
+::: infobox
+### Descriptive and Inferential Statistics {.unnumbered}
+
+If your only concern is the sample properties (like the heights of the
+children in your sample), the statistics you calculate are
+**descriptive**. [05.03.23
+22:36](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/8/18%5Bc01-para-0012%5D/2%3A172%29)
+
+If you're concerned about estimating the population properties, your
+statistics are **inferential**. [05.03.23
+22:36](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/8/18%5Bc01-para-0012%5D/2%3A344%29)
+:::
+
+::: infobox
+### Dependent and Independent Variable {.unnumbered}
+
+A **dependent variable** is what a researcher measures. In an
+experiment, an **independent variable** is what a researcher
+manipulates. [05.03.23
+22:38](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/10/14%5Bc01-para-0018%5D/2%3A1%29)
+
+In other contexts, a researcher can't manipulate an independent
+variable. Instead, they note naturally occurring values of the
+independent variable and how they affect a dependent variable. [05.03.23
+22:39](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/10/14%5Bc01-para-0018%5D/2%3A110%29)
+:::
+
+### Nominal, Ordinal, Interval and Ratio Data {.unnumbered}
+
+[05.03.23
+22:43](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/12/4%5Bh3-3%5D/1%3A0%29)
+
+> People are sometimes surprised to find out that on the Fahrenheit
+> scale a temperature of 80° is not twice as hot as 40°. For ratio
+> statements ("twice as much as," "half as much as") to make sense, zero
+> has to mean the complete absence of the thing you're measuring. A
+> temperature of 0° F doesn't mean the complete absence of heat --- it's
+> just an arbitrary point on the Fahrenheit scale. (The same holds true
+> for Celsius.) [05.03.23
+> 22:42](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/12/16%5Bc01-para-0026%5D/1%3A0%29)
+
+::: infobox
+### Conditional Probability {.unnumbered}
+
+is the probability that an event occurs given that some other event
+occurs. [05.03.23
+22:48](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/14/24%5Bc01-para-0037%5D/2/1%3A0%29)
+
+Important is the "Conditional Probability Question": what's the
+probability of obtaining the data, given that this hypothesis is
+correct? [05.03.23
+22:48](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/16/10%5Bc01-para-0040%5D/1%3A33%29)
+:::
+
+> The way the logic works, you never accept a hypothesis. You either
+> reject H0 or don't reject H0. In a jury trial, the verdict is either
+> "guilty" (reject the null hypothesis of "not guilty") or "not guilty"
+> (don't reject H0). "Innocent" (acceptance of the null hypothesis) is
+> not a possible verdict. [05.03.23
+> 23:00](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/18/14%5Bc01-para-0049%5D/2%3A35%29)
+
+::: infobox
+### Type I and Type II Error {.unnumbered}
+
+If you reject H0 and you shouldn't, that's a **Type I error**. In the
+coin example, that's rejecting the hypothesis that the coin is fair,
+when in reality it is a fair coin.
+
+If you don't reject H0 and you should have, that's a **Type II error**.
+It happens if you don't reject the hypothesis that the coin is fair, and
+in reality it's biased. [05.03.23
+23:02](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/20/12%5Bc01-para-0055%5D/1%3A0%29)
+:::
+
+> If you think of H0 as a tendency to maintain the status quo and not
+> interpret anything as being out of the ordinary (no matter how it
+> looks), a Type II error means you've missed out on something big.
+> [05.03.23
+> 23:04](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/8/20/18%5Bc01-para-0058%5D/1%3A0%29)
+
+## Getting RStudio
+
+The author of R All-in-One for Dummiess was working with R version 4.2.0
+and RStudio version 2022.02.3 Build 492. [06.03.23
+16:08](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/12/14%5Bc01-para-0071%5D/2%3A1%29)
+
+**2023-03-19**: I am using R version 4.2.3 and RStudio Version
+2023.03.0+386 (2023.03.0+386).
+
+## A Session with R
+
+::: errorbox
+### Bad Habits in "R All-in-One for Dummies" {.unnumbered}
+
+1.  Changing the working directory programmatically (for instance with
+    `getwd()` / `setwd(dir)`) is a bad habit! [05.03.23
+    23:16](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/14/10/4%5Bh3-8%5D/1%3A0%29)
+2.  Saving the session contradicts the important rule to strive for
+    reproducibility. [06.03.23
+    16:37](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/14/12/128%5Bc01-para-0117%5D/1%3A167%29)
+    (Many of my critical comments of "R All-in-One for Dummies" refers
+    to the rule of reproducibility.)
+:::
+
+## R Functions
+
+::: infobox
+### Positional and Keyword Mapping {.unnumbered}
+
+To list the arguments in the order that they appear in the function's
+definition is called **positional mapping**. [05.03.23 23:19](#0)
+
+If you name a function when using it, you can place the function's
+arguments out of order. R calls this **keyword matching**. [05.03.23
+23:19](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/16/40%5Bc01-para-0128%5D/1%3A0%29)
+:::
+
+## R Structures
+
+::: warningbox
+### Outdated {.unnumbered}
+To introduce R with R Structures (vectors, matrices, lists, data
+frames) is outdated. Nowadays one uses the [tidyverse program packages](https://www.tidyverse.org/packages/),
+especially `ggplot2` to get nice and motivating diagrams. [05.03.23
+23:33](calibre://view-book/_hex_-4d61696e/3455/EPUB?open_at=epubcfi%28/12/2/4%5Bc01-body-0001%5D/2/22/4%5Bh2-8%5D/1%3A0%29)
+:::
+
+::: errorbox
+### Wrong line output {.unnumbered}
+The author claims that the output is separated into two lines as the printed
+page is not as wide as the Console pane. This is not the case (at last not in the e-book
+version). The inserted line number appears in the middle of the line and
+not at the beginning of the next line.
+:::

@@ -1,4 +1,4 @@
---- 
+---
 title: "R All-in-One For Dummies"
 author: "Peter Baumgartner"
 date: "`r Sys.Date()`"
@@ -12,8 +12,6 @@ description: |
   The HTML output format for this example is bookdown::gitbook,
   set in the _output.yml file.
 link-citations: yes
-github-repo: petzi53/REPO-NAME
+github-repo: petzi53/R-All-in-one
 ---
-
-# Preface
-
+# Preface {-}
